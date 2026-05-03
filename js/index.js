@@ -682,8 +682,8 @@ function moddededition(){
     resetTabSelected();
     generateprofile(2);
     generatelaunchers(launcher);
-    document.getElementById('game-bg').style.backgroundImage = 'url(./assets/images/modded-edition.jpg)';
-    document.getElementById('game-title').src = './assets/images/modded-title.png';
+    document.getElementById('game-bg').style.backgroundImage = 'url(https://irv77.github.io/AmplerLauncher/assets/images/modded-edition.jpg)';
+    document.getElementById('game-title').src = 'https://irv77.github.io/AmplerLauncher/assets/images/modded-title.png';
     document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT MODDED';
     document.getElementById('header5').style.display = 'none';
     document.getElementById('header7').style.display = 'none';
@@ -699,8 +699,8 @@ function eaglercontrols(){
     resetTabSelected();
     generateprofile(3);
     generatelaunchers(launcher);
-    document.getElementById('game-bg').style.backgroundImage = 'url(./assets/images/controls-edition.jpg)';
-    document.getElementById('game-title').src = './assets/images/controls-title.png';
+    document.getElementById('game-bg').style.backgroundImage = 'url(https://irv77.github.io/AmplerLauncher/assets/images/controls-edition.jpg)';
+    document.getElementById('game-title').src = 'https://irv77.github.io/AmplerLauncher/assets/images/controls-title.png';
     document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT MOBILE/CONTROLLER';
     document.getElementById('header2').style.display = 'none';
     document.getElementById('header5').style.display = 'none';
