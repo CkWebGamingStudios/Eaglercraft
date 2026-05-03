@@ -1,42 +1,250 @@
 [
     {
-       "title": "OptiFine",
-       "author": "sp614x",
-       "description": "Increases FPS and adds support for HD textures and many configuration options",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/optifine.png",
-       "link": "optifine",
+       "title": "Worldedit",
+       "author": "EaglerForge Community",
+       "description": "In-game world editing tool for building and terrain manipulation",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/command-block.png",
+       "link": "./Mods/Worldedit.js",
        "active": false
     },
     {
-       "title": "VoxelMap",
-       "author": "MamiyaOtaru",
-       "description": "Minimap and worldmap mod for multiplayer",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/voxelmap.png",
-       "link": "voxelmap",
+       "title": "Waypoints",
+       "author": "EaglerForge Community",
+       "description": "Save and teleport to custom waypoints in your world",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/compass.png",
+       "link": "./Mods/waypoints.js",
        "active": false
     },
     {
-       "title": "5Zig Mod",
-       "author": "5zig",
-       "description": "Display game info on screen and access many useful features",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/5zig.png",
-       "link": "5zig",
+       "title": "Veinminer",
+       "author": "EaglerForge Community",
+       "description": "Mine entire ore veins with a single click",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/diamond-pickaxe.png",
+       "link": "./Mods/veinminer.js",
        "active": false
     },
     {
-       "title": "LabyMod",
-       "author": "LabyMedia",
-       "description": "All-in-one client with cosmetics, voice chat and more",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/labymod.png",
-       "link": "labymod",
+       "title": "Grapple Hook",
+       "author": "EaglerForge Community",
+       "description": "Add a grappling hook item for swinging and movement",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/fishing-rod.png",
+       "link": "./Mods/grapplehook.js",
        "active": false
     },
     {
-       "title": "Shaders Mod",
-       "author": "karyonix",
-       "description": "Adds shader support to Minecraft for better graphics",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/shaders.png",
-       "link": "shadersmod",
+       "title": "Guns",
+       "author": "EaglerForge Community",
+       "description": "Adds craftable guns and weapons to the game",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/bow.png",
+       "link": "./Mods/guns_craftable.js",
+       "active": false
+    },
+    {
+       "title": "Hats",
+       "author": "EaglerForge Community",
+       "description": "Wear custom hats and cosmetics on your player",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/leather-helmet.png",
+       "link": "./Mods/hats.js",
+       "active": false
+    },
+    {
+       "title": "Custom Items Demo",
+       "author": "EaglerForge Community",
+       "description": "Example mod showing how to create custom items",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/diamond.png",
+       "link": "./Mods/CustomItemsDemo.js",
+       "active": false
+    },
+    {
+       "title": "Custom Block Tutorial",
+       "author": "EaglerForge Community",
+       "description": "Learn how to add custom blocks to the game",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/grass-wasm.png",
+       "link": "./Mods/Tutorial_Custom_Block.js",
+       "active": false
+    },
+    {
+       "title": "Block of Steve (Advanced)",
+       "author": "EaglerForge Community",
+       "description": "Advanced custom block example with special properties",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/steve-head.png",
+       "link": "./Mods/block_of_steve_advanced.js",
+       "active": false
+    },
+    {
+       "title": "Block of Steve (Simple)",
+       "author": "EaglerForge Community",
+       "description": "Simple custom block example for beginners",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/oak-planks.png",
+       "link": "./Mods/block_of_steve_simple.js",
+       "active": false
+    },
+    {
+       "title": "Faster Minecarts",
+       "author": "EaglerForge Community",
+       "description": "Increase minecart speed for faster transportation",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/minecart.png",
+       "link": "./Mods/faster_minecarts.js",
+       "active": false
+    },
+    {
+       "title": "XP Spawner",
+       "author": "EaglerForge Community",
+       "description": "Spawn experience orbs for leveling up quickly",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/experience-bottle.png",
+       "link": "./Mods/xpspawner.js",
+       "active": false
+    },
+    {
+       "title": "AFK Mod",
+       "author": "EaglerForge Community",
+       "description": "Auto-actions to prevent being kicked while AFK",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/clock.png",
+       "link": "./Mods/afkmod.js",
+       "active": false
+    },
+    {
+       "title": "VClip",
+       "author": "EaglerForge Community",
+       "description": "Vertical clip command to move through blocks",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ender-pearl.png",
+       "link": "./Mods/vclip.js",
+       "active": false
+    },
+    {
+       "title": "Timescale Command",
+       "author": "EaglerForge Community",
+       "description": "Speed up or slow down game time",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/clock.png",
+       "link": "./Mods/timescale_command.js",
+       "active": false
+    },
+    {
+       "title": "No Particles",
+       "author": "EaglerForge Community",
+       "description": "Disable all particle effects for better performance",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/barrier.png",
+       "link": "./Mods/no_particles.js",
+       "active": false
+    },
+    {
+       "title": "No Block Particles",
+       "author": "EaglerForge Community",
+       "description": "Disable only block-breaking particle effects",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+       "link": "./Mods/no_block_particles.js",
+       "active": false
+    },
+    {
+       "title": "Slippery Blocks",
+       "author": "EaglerForge Community",
+       "description": "Make certain blocks slippery like ice",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ice.png",
+       "link": "./Mods/slippery.js",
+       "active": false
+    },
+    {
+       "title": "Unlucky Blocks",
+       "author": "EaglerForge Community",
+       "description": "Random events when breaking special blocks",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/tnt-wasm.png",
+       "link": "./Mods/unlucky_blocks.js",
+       "active": false
+    },
+    {
+       "title": "Flammable String",
+       "author": "EaglerForge Community",
+       "description": "Makes string blocks flammable and burnable",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/string.png",
+       "link": "./Mods/flammable_string.js",
+       "active": false
+    },
+    {
+       "title": "Wine Mod",
+       "author": "EaglerForge Community",
+       "description": "Adds wine and brewing mechanics to the game",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/potion.png",
+       "link": "./Mods/winemod.js",
+       "active": false
+    },
+    {
+       "title": "Duck Mod",
+       "author": "EaglerForge Community",
+       "description": "Adds ducks and duck-related items",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/chicken.png",
+       "link": "./Mods/DuckMod.js",
+       "active": false
+    },
+    {
+       "title": "Cube Entity",
+       "author": "EaglerForge Community",
+       "description": "Example mod for creating custom entities",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/slime-ball.png",
+       "link": "./Mods/cubeentity.js",
+       "active": false
+    },
+    {
+       "title": "F11 Fix",
+       "author": "EaglerForge Community",
+       "description": "Fix fullscreen mode issues",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/map.png",
+       "link": "./Mods/f11fix.js",
+       "active": false
+    },
+    {
+       "title": "Microphone",
+       "author": "EaglerForge Community",
+       "description": "Voice chat support for multiplayer",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/note-block.png",
+       "link": "./Mods/microphone.js",
+       "active": false
+    },
+    {
+       "title": "Talkback",
+       "author": "EaglerForge Community",
+       "description": "Auto-respond to chat messages",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/book-and-quill.png",
+       "link": "./Mods/talkback.js",
+       "active": false
+    },
+    {
+       "title": "Arbitrary Model Renderer",
+       "author": "EaglerForge Community",
+       "description": "Render custom 3D models in-game",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/armor-stand.png",
+       "link": "./Mods/arbitrary_model.js",
+       "active": false
+    },
+    {
+       "title": "AsyncSink",
+       "author": "EaglerForge Community",
+       "description": "Asynchronous data processing utility",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/hopper.png",
+       "link": "./Mods/AsyncSink.js",
+       "active": false
+    },
+    {
+       "title": "Dupe Hunting",
+       "author": "EaglerForge Community",
+       "description": "Tool to detect item duplication glitches",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/chest.png",
+       "link": "./Mods/dupe_hunting.js",
+       "active": false
+    },
+    {
+       "title": "Diamond Block Custom Craft",
+       "author": "EaglerForge Community",
+       "description": "Custom crafting recipe for diamond blocks",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/diamond-block.png",
+       "link": "./Mods/diamondBlockCustomCraft.js",
+       "active": false
+    },
+    {
+       "title": "Custom Item Library",
+       "author": "EaglerForge Community",
+       "description": "Library for creating custom items easily",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/enchanted-book.png",
+       "link": "./Mods/lib.customitems.js",
        "active": false
     }
 ]
