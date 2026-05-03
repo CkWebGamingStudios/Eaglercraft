@@ -3,7 +3,7 @@ name: Deploy LFS to GitHub Pages
 on:
   push:
     branches:
-      - gh-pages  # Set this to your default branch name
+      - main  # Set this to your default branch name
 
 jobs:
   deploy:
