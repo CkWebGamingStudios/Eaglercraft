@@ -665,8 +665,8 @@ function webedition(){
     resetTabSelected();
     generateprofile(1);
     generatelaunchers(launcher);
-    document.getElementById('game-bg').style.backgroundImage = 'url(./assets/images/web-edition.jpg)';
-    document.getElementById('game-title').src = './assets/images/web-title.png';
+    document.getElementById('game-bg').style.backgroundImage = 'url(https://irv77.github.io/AmplerLauncher/assets/images/web-edition.jpg)';
+    document.getElementById('game-title').src = 'https://irv77.github.io/AmplerLauncher/assets/images/web-title.png';
     document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT WEB EDITION';
     document.getElementById('header2').style.display = 'none';
     document.getElementById('header7').style.display = 'none';
