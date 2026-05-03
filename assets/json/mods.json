@@ -1,0 +1,42 @@
+[
+    {
+       "title": "OptiFine",
+       "author": "sp614x",
+       "description": "Increases FPS and adds support for HD textures and many configuration options",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/optifine.png",
+       "link": "optifine",
+       "active": false
+    },
+    {
+       "title": "VoxelMap",
+       "author": "MamiyaOtaru",
+       "description": "Minimap and worldmap mod for multiplayer",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/voxelmap.png",
+       "link": "voxelmap",
+       "active": false
+    },
+    {
+       "title": "5Zig Mod",
+       "author": "5zig",
+       "description": "Display game info on screen and access many useful features",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/5zig.png",
+       "link": "5zig",
+       "active": false
+    },
+    {
+       "title": "LabyMod",
+       "author": "LabyMedia",
+       "description": "All-in-one client with cosmetics, voice chat and more",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/labymod.png",
+       "link": "labymod",
+       "active": false
+    },
+    {
+       "title": "Shaders Mod",
+       "author": "karyonix",
+       "description": "Adds shader support to Minecraft for better graphics",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mods/shaders.png",
+       "link": "shadersmod",
+       "active": false
+    }
+]
