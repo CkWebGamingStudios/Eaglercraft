@@ -1,0 +1,100 @@
+[
+    {
+       "title": "Latest release",
+       "version": "1.12.2-u2-wasm",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/grass-wasm.png",
+       "link": "./Versions/Eaglercraft_1.12.2_WASM.html",
+       "active": true
+    },
+    {
+       "title": "Previous release",
+       "version": "1.8.8-u53-wasm",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/dirt-wasm.png",
+       "link": "./Versions/EaglercraftX_1.8.8_WASM.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft 1.6.4",
+       "version": "1.6.4",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/hay-bale.png",
+       "link": "./Versions/Eaglercraft_1.6.4.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft 1.5.2",
+       "version": "1.5.2",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/hopper.png",
+       "link": "./Versions/Eaglercraft_1.5.2.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft 1.2.5",
+       "version": "1.2.5",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/jungle-log.png",
+       "link": "./Versions/Eaglercraft_1.2.5.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Beta 1.7.3",
+       "version": "b1.7.3",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/sticky-piston.png",
+       "link": "./Versions/Eaglercraft_b1.7.3.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Beta 1.4",
+       "version": "b1.4",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/trapped-chest.png",
+       "link": "./Versions/Eaglercraft_b1.4.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Beta 1.3",
+       "version": "b1.3",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/red-bed.png",
+       "link": "./Versions/Eaglercraft_b1.3.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Beta 1.1",
+       "version": "b1.1",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/oak-leaves.png",
+       "link": "./Versions/Eaglercraft_b1.1.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Alpha 1.2.6",
+       "version": "a1.2.6",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/jack-o-lantern.png",
+       "link": "./Versions/Eaglercraft_a1.2.6.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Alpha 1.0.6 JS",
+       "version": "a1.0.6-js",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/clay.png",
+       "link": "./Versions/Eaglercraft_a1.0.6_JS.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Infdev WASM",
+       "version": "inf-wasm",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/monster-spawner-wasm.png",
+       "link": "./Versions/Eaglercraft_Infdev_WASM.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Indev",
+       "version": "indev",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/furnace.png",
+       "link": "./Versions/Eaglercraft_Indev.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft Classic 0.30 WASM",
+       "version": "c0.30-wasm",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/tnt-wasm.png",
+       "link": "./Versions/Eaglercraft_c0.30_WASM.html",
+       "active": true
+    }
+]
