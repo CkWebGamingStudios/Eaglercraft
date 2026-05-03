@@ -1,0 +1,44 @@
+[
+    {
+       "title": "EaglercraftX Mobile",
+       "version": "1.8.8-u53-wasm",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/dirt-wasm.png",
+       "link": "./Versions/EaglercraftX_1.8.8_WASM.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft 1.12.2 Mobile",
+       "version": "1.12.2-u2-wasm",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/grass-wasm.png",
+       "link": "./Versions/Eaglercraft_1.12.2_WASM.html",
+       "active": true
+    },
+    {
+       "title": "Eaglercraft 1.5.2 Mobile",
+       "version": "1.5.2",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/hopper.png",
+       "link": "./Versions/Eaglercraft_1.5.2.html",
+       "active": true
+    },
+    {
+       "title": "Resent 4.0 Mobile",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/command-block.png",
+       "link": "./Clients/Resent/Resent 4.0.html",
+       "active": true
+    },
+    {
+       "title": "Shadow Client Mobile",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/obsidian.png",
+       "link": "./Clients/Shadow Client.html",
+       "active": true
+    },
+    {
+       "title": "Dragon v5 Mobile",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/dragon-egg.png",
+       "link": "./Clients/Dragon/Dragon v5.html",
+       "active": true
+    }
+]
