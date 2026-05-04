@@ -1,6 +1,76 @@
 [
     {
-       "title": "EaglercraftX Mobile",
+       "title": "Resent 4.0 Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/resent.png",
+       "link": "./Clients/Resent/Resent 4.0.html",
+       "active": true
+    },
+    {
+       "title": "Shadow Client Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/shadow.png",
+       "link": "./Clients/Shadow Client.html",
+       "active": true
+    },
+    {
+       "title": "Precision Client Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/precision.png",
+       "link": "./Clients/Precision Client/Precision Client.html",
+       "active": true
+    },
+    {
+       "title": "Dragon v5 Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/dragon.webp",
+       "link": "./Clients/Dragon/Dragon v5.html",
+       "active": true
+    },
+    {
+       "title": "Dragon v4 Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/dragon.webp",
+       "link": "./Clients/Dragon/Dragon v4.html",
+       "active": true
+    },
+    {
+       "title": "Astra v2 Mobile",
+       "version": "1.12.2",
+       "icon": "./assets/images/astra.png",
+       "link": "./Clients/Astra/astra v2 1.12.html",
+       "active": true
+    },
+    {
+       "title": "Astra v2 1.8 Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/astra.png",
+       "link": "./Clients/Astra/astra v2 1.8.html",
+       "active": true
+    },
+    {
+       "title": "Flame v3.8 Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/flame.jfif",
+       "link": "./Clients/Flame/Flame v3.8.html",
+       "active": true
+    },
+    {
+       "title": "Justin v1.2.3 Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/justin.jfif",
+       "link": "./Clients/Justin/Justin v1.2.3.html",
+       "active": true
+    },
+    {
+       "title": "EaglyMC Mobile",
+       "version": "1.8.8",
+       "icon": "./assets/images/eaglymc.jfif",
+       "link": "./Clients/EaglyMC/EaglyMC.html",
+       "active": true
+    },
+    {
+       "title": "EaglercraftX 1.8.8 Mobile",
        "version": "1.8.8-u53-wasm",
        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/dirt-wasm.png",
        "link": "./Versions/EaglercraftX_1.8.8_WASM.html",
@@ -21,24 +91,17 @@
        "active": true
     },
     {
-       "title": "Resent 4.0 Mobile",
-       "version": "1.8.8",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/command-block.png",
-       "link": "./Clients/Resent/Resent 4.0.html",
+       "title": "FuschiaX Mobile",
+       "version": "1.5.2",
+       "icon": "./assets/images/Fuschia.png",
+       "link": "./Clients/FuschaiX/FuschiaX.html",
        "active": true
     },
     {
-       "title": "Shadow Client Mobile",
-       "version": "1.8.8",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/obsidian.png",
-       "link": "./Clients/Shadow Client.html",
-       "active": true
-    },
-    {
-       "title": "Dragon v5 Mobile",
-       "version": "1.8.8",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/dragon-egg.png",
-       "link": "./Clients/Dragon/Dragon v5.html",
+       "title": "Ayunami Mobile",
+       "version": "1.5.2",
+       "icon": "./assets/images/ayunami.gif",
+       "link": "./Clients/ayunami-1.5.html",
        "active": true
     }
 ]
