@@ -1,30 +1,51 @@
 [
     {
-       "title": "Resent 4.0",
+       "title": "Resent v4.0.1",
        "version": "1.8.8",
        "icon": "./assets/images/resent.png",
-       "link": "./Clients/Resent/Resent 4.0.html",
+       "link": "./Clients/Resent/Resent v4.0.1.html",
        "active": true
     },
     {
-       "title": "Resent 3.6",
+       "title": "Resent v3.8",
        "version": "1.8.8",
        "icon": "./assets/images/resent.png",
-       "link": "./Clients/Resent/Resent 3.6.html",
+       "link": "./Clients/Resent/Resent v3.8.html",
        "active": true
     },
     {
-       "title": "Shadow Client",
+       "title": "Shadow v4.5 OptiFine",
        "version": "1.8.8",
        "icon": "./assets/images/shadow.png",
-       "link": "./Clients/Shadow Client.html",
+       "link": "./Clients/Shadow/Shadow.v4.5.optifine.html",
        "active": true
     },
     {
-       "title": "Precision Client",
+       "title": "Shadow v3",
+       "version": "1.8.8",
+       "icon": "./assets/images/shadow.png",
+       "link": "./Clients/Shadow/Shadow.v3.html",
+       "active": true
+    },
+    {
+       "title": "Shadow v2.5",
+       "version": "1.8.8",
+       "icon": "./assets/images/shadow.png",
+       "link": "./Clients/Shadow/Shadow.v2.5.html",
+       "active": true
+    },
+    {
+       "title": "Precision v0.2",
        "version": "1.8.8",
        "icon": "./assets/images/precision.png",
-       "link": "./Clients/Precision Client/Precision Client.html",
+       "link": "./Clients/Precision/Precision v0.2.html",
+       "active": true
+    },
+    {
+       "title": "Precision v0.1.1",
+       "version": "1.8.8",
+       "icon": "./assets/images/precision.png",
+       "link": "./Clients/Precision/Precision v0.1.1.html",
        "active": true
     },
     {
@@ -70,14 +91,14 @@
        "active": true
     },
     {
-       "title": "Astra v2",
+       "title": "Astra v2 1.12",
        "version": "1.12.2",
        "icon": "./assets/images/astra.png",
        "link": "./Clients/Astra/astra v2 1.12.html",
        "active": true
     },
     {
-       "title": "Astra v1",
+       "title": "Astra v1 1.12",
        "version": "1.12.2",
        "icon": "./assets/images/astra.png",
        "link": "./Clients/Astra/astra v1 1.12.html",
@@ -102,6 +123,27 @@
        "version": "1.8.8",
        "icon": "./assets/images/flame.jfif",
        "link": "./Clients/Flame/Flame v3.7.html",
+       "active": true
+    },
+    {
+       "title": "Justin v3",
+       "version": "1.8.8",
+       "icon": "./assets/images/justin.jfif",
+       "link": "./Clients/Justin/Justin v3.html",
+       "active": true
+    },
+    {
+       "title": "Justin v2",
+       "version": "1.8.8",
+       "icon": "./assets/images/justin.jfif",
+       "link": "./Clients/Justin/Justin v2.html",
+       "active": true
+    },
+    {
+       "title": "Justin v1.2.4",
+       "version": "1.8.8",
+       "icon": "./assets/images/justin.jfif",
+       "link": "./Clients/Justin/Justin v1.2.4.html",
        "active": true
     },
     {
@@ -147,9 +189,107 @@
        "active": true
     },
     {
+       "title": "Starlike v0.4.2",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+       "link": "./Clients/Starlike/Starlike v0.4.2.html",
+       "active": true
+    },
+    {
+       "title": "Starlike v0.4.0",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+       "link": "./Clients/Starlike/Starlike v0.4.0.html",
+       "active": true
+    },
+    {
+       "title": "Starlike v0.3.1",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+       "link": "./Clients/Starlike/Starlike v0.3.1.html.html",
+       "active": true
+    },
+    {
+       "title": "Starlike v0.1.0",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+       "link": "./Clients/Starlike/Starlike v0.1.0.html",
+       "active": true
+    },
+    {
+       "title": "Tuff 1.1UT14",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+       "link": "./Clients/Tuff/Tuff.1.1UT14.html",
+       "active": true
+    },
+    {
+       "title": "Tuff 1.1UT13",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+       "link": "./Clients/Tuff/Tuff.1.1UT13.html",
+       "active": true
+    },
+    {
+       "title": "Tuff 1.1UT12",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+       "link": "./Clients/Tuff/Tuff.1.1UT12.html",
+       "active": true
+    },
+    {
+       "title": "Tuff 1.1UT11",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+       "link": "./Clients/Tuff/Tuff.1.1UT11.html",
+       "active": true
+    },
+    {
+       "title": "Tuff 1.1UT10",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+       "link": "./Clients/Tuff/Tuff.1.1UT10.html",
+       "active": true
+    },
+    {
+       "title": "Tuff 1.0.0",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+       "link": "./Clients/Tuff/Tuff.1.0.0.html",
+       "active": true
+    },
+    {
+       "title": "Wispcraft v3",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ghast-tear.png",
+       "link": "./Clients/Wispcraft/Wispcraft v3.html",
+       "active": true
+    },
+    {
+       "title": "Wispcraft v2",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ghast-tear.png",
+       "link": "./Clients/Wispcraft/Wispcraft v2.html",
+       "active": true
+    },
+    {
+       "title": "UwU v2",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/pink-wool.png",
+       "link": "./Clients/UwU/UwU v2.html",
+       "active": true
+    },
+    {
+       "title": "UwU v1",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/pink-wool.png",
+       "link": "./Clients/UwU/UwU v1.html",
+       "active": true
+    },
+    {
        "title": "FuschiaX",
        "version": "1.5.2",
-       "icon": "./assets/images/FuschiaX.png",
+       "icon": "./assets/images/Fuschia.png",
        "link": "./Clients/FuschaiX/FuschiaX.html",
        "active": true
     },
@@ -249,6 +389,76 @@
        "version": "1.8.8",
        "icon": "./assets/images/codecraft.jfif",
        "link": "./Clients/Codecraft/Codercraft.html",
+       "active": true
+    },
+    {
+       "title": "Winston",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/iron-helmet.png",
+       "link": "./Clients/Winston/Winston.html",
+       "active": true
+    },
+    {
+       "title": "Reborn",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/totem.png",
+       "link": "./Clients/Reborn/Reborn.html",
+       "active": true
+    },
+    {
+       "title": "Pixel",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/map.png",
+       "link": "./Clients/Pixel/Pixel.html",
+       "active": true
+    },
+    {
+       "title": "Pi",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/cake.png",
+       "link": "./Clients/Pi/Pi.html",
+       "active": true
+    },
+    {
+       "title": "Oddfuture",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/end-crystal.png",
+       "link": "./Clients/Oddfuture/Oddfuture.html",
+       "active": true
+    },
+    {
+       "title": "Nova",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/beacon.png",
+       "link": "./Clients/Nova/Nova.html",
+       "active": true
+    },
+    {
+       "title": "Nit v2",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/redstone-torch.png",
+       "link": "./Clients/Nit/Nit v2.html",
+       "active": true
+    },
+    {
+       "title": "Nebula",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/purple-stained-glass.png",
+       "link": "./Clients/Nebula/Nebula.html",
+       "active": true
+    },
+    {
+       "title": "Kone",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/orange-concrete.png",
+       "link": "./Clients/Kone/Kone.html",
+       "active": true
+    },
+    {
+       "title": "Kerosene",
+       "version": "1.8.8",
+       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/lava-bucket.png",
+       "link": "./Clients/Kerosene/Kerosone.html",
        "active": true
     }
 ]
