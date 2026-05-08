@@ -1,107 +1,205 @@
 [
     {
-       "title": "Resent 4.0 Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/resent.png",
-       "link": "./Clients/Resent/Resent 4.0.html",
-       "active": true
+        "title": "Resent v4.0.1",
+        "version": "1.8.8",
+        "icon": "./assets/images/resent.png",
+        "link": "./Clients/Resent/Resent v4.0.1.html",
+        "active": true
     },
     {
-       "title": "Shadow Client Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/shadow.png",
-       "link": "./Clients/Shadow Client.html",
-       "active": true
+        "title": "Shadow v4.5 OptiFine",
+        "version": "1.8.8",
+        "icon": "./assets/images/shadow.png",
+        "link": "./Clients/Shadow/Shadow.v4.5.optifine.html",
+        "active": true
     },
     {
-       "title": "Precision Client Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/precision.png",
-       "link": "./Clients/Precision Client/Precision Client.html",
-       "active": true
+        "title": "Precision v0.2",
+        "version": "1.8.8",
+        "icon": "./assets/images/precision.png",
+        "link": "./Clients/Precision/Precision v0.2.html",
+        "active": true
     },
     {
-       "title": "Dragon v5 Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/dragon.webp",
-       "link": "./Clients/Dragon/Dragon v5.html",
-       "active": true
+        "title": "Dragon v5",
+        "version": "1.8.8",
+        "icon": "./assets/images/dragon.webp",
+        "link": "./Clients/Dragon/Dragon v5.html",
+        "active": true
     },
     {
-       "title": "Dragon v4 Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/dragon.webp",
-       "link": "./Clients/Dragon/Dragon v4.html",
-       "active": true
+        "title": "Astra v2 1.12",
+        "version": "1.12.2",
+        "icon": "./assets/images/astra.png",
+        "link": "./Clients/Astra/astra v2 1.12.html",
+        "active": true
     },
     {
-       "title": "Astra v2 Mobile",
-       "version": "1.12.2",
-       "icon": "./assets/images/astra.png",
-       "link": "./Clients/Astra/astra v2 1.12.html",
-       "active": true
+        "title": "Astra v2 1.8",
+        "version": "1.8.8",
+        "icon": "./assets/images/astra.png",
+        "link": "./Clients/Astra/astra v2 1.8.html",
+        "active": true
     },
     {
-       "title": "Astra v2 1.8 Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/astra.png",
-       "link": "./Clients/Astra/astra v2 1.8.html",
-       "active": true
+        "title": "Flame v3.8",
+        "version": "1.8.8",
+        "icon": "./assets/images/flame.jfif",
+        "link": "./Clients/Flame/Flame v3.8.html",
+        "active": true
     },
     {
-       "title": "Flame v3.8 Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/flame.jfif",
-       "link": "./Clients/Flame/Flame v3.8.html",
-       "active": true
+        "title": "Justin v3",
+        "version": "1.8.8",
+        "icon": "./assets/images/justin.jfif",
+        "link": "./Clients/Justin/Justin v3.html",
+        "active": true
     },
     {
-       "title": "Justin v1.2.3 Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/justin.jfif",
-       "link": "./Clients/Justin/Justin v1.2.3.html",
-       "active": true
+        "title": "Starlike v0.4.2",
+        "version": "1.8.8",
+        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+        "link": "./Clients/Starlike/Starlike v0.4.2.html",
+        "active": true
     },
     {
-       "title": "EaglyMC Mobile",
-       "version": "1.8.8",
-       "icon": "./assets/images/eaglymc.jfif",
-       "link": "./Clients/EaglyMC/EaglyMC.html",
-       "active": true
+        "title": "Tuff 1.1UT14",
+        "version": "1.8.8",
+        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "link": "./Clients/Tuff/Tuff.1.1UT14.html",
+        "active": true
     },
     {
-       "title": "EaglercraftX 1.8.8 Mobile",
-       "version": "1.8.8-u53-wasm",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/dirt-wasm.png",
-       "link": "./Versions/EaglercraftX_1.8.8_WASM.html",
-       "active": true
+        "title": "Wispcraft v3",
+        "version": "1.8.8",
+        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ghast-tear.png",
+        "link": "./Clients/Wispcraft/Wispcraft v3.html",
+        "active": true
     },
     {
-       "title": "Eaglercraft 1.12.2 Mobile",
-       "version": "1.12.2-u2-wasm",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/grass-wasm.png",
-       "link": "./Versions/Eaglercraft_1.12.2_WASM.html",
-       "active": true
+        "title": "UwU v2",
+        "version": "1.8.8",
+        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/pink-wool.png",
+        "link": "./Clients/UwU/UwU v2.html",
+        "active": true
     },
     {
-       "title": "Eaglercraft 1.5.2 Mobile",
-       "version": "1.5.2",
-       "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/hopper.png",
-       "link": "./Versions/Eaglercraft_1.5.2.html",
-       "active": true
+        "title": "FuschiaX",
+        "version": "1.5.2",
+        "icon": "./assets/images/FuschiaX.png",
+        "link": "./Clients/FuschaiX/FuschiaX.html",
+        "active": true
     },
     {
-       "title": "FuschiaX Mobile",
-       "version": "1.5.2",
-       "icon": "./assets/images/Fuschia.png",
-       "link": "./Clients/FuschaiX/FuschiaX.html",
-       "active": true
+        "title": "EaglerCraft L 1.9",
+        "version": "1.9",
+        "icon": "./assets/images/Eaglercraftl.jfif",
+        "link": "./Clients/EaglercraftL/EaglercraftL 1.9.html",
+        "active": true
     },
     {
-       "title": "Ayunami Mobile",
-       "version": "1.5.2",
-       "icon": "./assets/images/ayunami.gif",
-       "link": "./Clients/ayunami-1.5.html",
-       "active": true
+        "title": "EaglerCraft Z 0.0.10.1",
+        "version": "0.0.10.1",
+        "icon": "./assets/images/EaglercraftZ.png",
+        "link": "./Clients/EaglercraftZ/EaglercraftZ 0.0.10.1.html",
+        "active": true
+    },
+    {
+        "title": "EaglyMC",
+        "version": "1.8.8",
+        "icon": "./assets/images/eaglymc.jfif",
+        "link": "./Clients/EaglyMC/EaglyMC.html",
+        "active": true
+    },
+    {
+        "title": "JmoCraft v5.2",
+        "version": "1.5.2",
+        "icon": "./assets/images/Jmocraft.jfif",
+        "link": "./Clients/Jmo Craft/JmoCraft v5.2.html",
+        "active": true
+    },
+    {
+        "title": "Ayunami 1.5",
+        "version": "1.5.2",
+        "icon": "./assets/images/ayunami.gif",
+        "link": "./Clients/ayunami-1.5.html",
+        "active": true
+    },
+    {
+        "title": "Codecraft",
+        "version": "1.8.8",
+        "icon": "./assets/images/codecraft.jfif",
+        "link": "./Clients/Codecraft/Codercraft.html",
+        "active": true
+    },
+    {
+        "title": "Winston",
+        "version": "1.8.8",
+        "icon": "./assets/images/Winston.jpg",
+        "link": "./Clients/Winston/Winston.html",
+        "active": true
+    },
+    {
+        "title": "Reborn",
+        "version": "1.8.8",
+        "icon": "./assets/images/Reborn.png",
+        "link": "./Clients/Reborn/Reborn.html",
+        "active": true
+    },
+    {
+        "title": "Pixel",
+        "version": "1.8.8",
+        "icon": "./assets/images/Pixel.jfif",
+        "link": "./Clients/Pixel/Pixel.html",
+        "active": true
+    },
+    {
+        "title": "Pi",
+        "version": "1.8.8",
+        "icon": "./assets/images/Pi.jfif",
+        "link": "./Clients/Pi/Pi.html",
+        "active": true
+    },
+    {
+        "title": "Oddfuture",
+        "version": "1.8.8",
+        "icon": "./assets/images/OddFuture.svg",
+        "link": "./Clients/Oddfuture/Oddfuture.html",
+        "active": true
+    },
+    {
+        "title": "Nova",
+        "version": "1.8.8",
+        "icon": "./assets/images/Nova.png",
+        "link": "./Clients/Nova/Nova.html",
+        "active": true
+    },
+    {
+        "title": "Nit v2",
+        "version": "1.8.8",
+        "icon": "./assets/images/Nit.jpg",
+        "link": "./Clients/Nit/Nit v2.html",
+        "active": true
+    },
+    {
+        "title": "Nebula",
+        "version": "1.8.8",
+        "icon": "./assets/images/Nebula.png",
+        "link": "./Clients/Nebula/Nebula.html",
+        "active": true
+    },
+    {
+        "title": "Kone",
+        "version": "1.8.8",
+        "icon": "./assets/images/kone.png",
+        "link": "./Clients/Kone/Kone.html",
+        "active": true
+    },
+    {
+        "title": "Kerosene",
+        "version": "1.8.8",
+        "icon": "./assets/images/kerosene.webp",
+        "link": "./Clients/Kerosene/Kerosone.html",
+        "active": true
     }
 ]
