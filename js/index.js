@@ -17,6 +17,13 @@ function errorNA(text) {
 let selectedGame1 = localStorage.getItem("basegame");
 let selectedGame2 = localStorage.getItem("moddedgame");
 let selectedGame3 = localStorage.getItem("assisted");
+const assistedUserscripts = {
+    mobile: "https://irv77.github.io/EaglerPocketMobile/eaglerpocketmobile.user.js",
+    controller: "https://irv77.github.io/EaglerConsole/eaglerconsole.user.js"
+};
+let selectedAssistedMode = localStorage.getItem("assistedmode") || "mobile";
+if (!assistedUserscripts[selectedAssistedMode]) {selectedAssistedMode = "mobile"};
+localStorage.setItem("assistedmode", selectedAssistedMode);
 let modslauncher
 if (localStorage.getItem("modslauncher")) {modslauncher = JSON.parse(localStorage.getItem("modslauncher"))};
 if (!localStorage.getItem("launcherpresets")) {
@@ -30,33 +37,40 @@ if (customlaunchersnumber > 99) {
     console.log("%cWell.. You found an easter egg. You broke the launcher. Sure I can easily fix it. But this is a rare bug. Report if you found this bug, then I will. -IRV77", "color: red; font-weight: bold; background-color: rgba(0,0,0,0.5); padding: 1vw;");
 };
 
+function applySelectedGameToProfile(selectedGame, game) {
+    document.getElementById('gametitle').innerHTML = selectedGame.title;
+    if (selectedGame.custom) {document.getElementById('gametitle').innerHTML = selectedGame.title.slice(4)};
+    document.getElementById('gameversion').innerHTML = selectedGame.version;
+    document.getElementById('gameicon').src = selectedGame.icon;
+    setPlayButtonLink(selectedGame, game);
+}
+
 function generateprofile(game) {
     let selectedGame = "";
     let running = false;
     if (!selectedGame1) {
         fetch("./assets/json/base.json").then((response) => response.json()).then((data) => {
             selectedGame1 = JSON.stringify(data[0]); localStorage.setItem("basegame", selectedGame1);
+            if (game === 1) {applySelectedGameToProfile(data[0], game)};
         });
     };
     if (game === 1 && selectedGame1) {selectedGame = JSON.parse(selectedGame1);  running = true;}; 
     if (!selectedGame2) {
         fetch("./assets/json/modded.json").then((response) => response.json()).then((data) => {
             selectedGame2 = JSON.stringify(data[0]); localStorage.setItem("moddedgame", selectedGame2);
+            if (game === 2) {applySelectedGameToProfile(data[0], game)};
         });
     };
     if (game === 2 && selectedGame2) {selectedGame = JSON.parse(selectedGame2);  running = true;}; 
     if (!selectedGame3) {
         fetch("./assets/json/assisted.json").then((response) => response.json()).then((data) => {
             selectedGame3 = JSON.stringify(data[0]); localStorage.setItem("assisted", selectedGame3);
+            if (game === 3) {applySelectedGameToProfile(data[0], game)};
         });
     };
     if (game === 3 && selectedGame3) {selectedGame = JSON.parse(selectedGame3);  running = true;}; 
     if (running === true) {
-    document.getElementById('gametitle').innerHTML = selectedGame.title;
-    if (selectedGame.custom) {document.getElementById('gametitle').innerHTML = selectedGame.title.slice(4)};
-    document.getElementById('gameversion').innerHTML = selectedGame.version;
-    document.getElementById('gameicon').src = selectedGame.icon;
-    document.getElementById('playbutton').href = selectedGame.link;
+        applySelectedGameToProfile(selectedGame, game);
     }
     if (!modslauncher) {
         localStorage.setItem("modslauncher", "");
@@ -102,6 +116,41 @@ function generategames(path) {
     });
 };
 
+function getAssistedLaunchLink(link) {
+    if (!link) {return link};
+    const separator = link.includes("?") ? "&" : "?";
+    return link + separator + "userscript=" + assistedUserscripts[selectedAssistedMode];
+}
+
+function setPlayButtonLink(game, path) {
+    if (!game) {return};
+    if (path === 3 || path === "./assets/json/assisted.json" || game.assisted === true) {
+        document.getElementById('playbutton').href = getAssistedLaunchLink(game.link);
+        return;
+    };
+    document.getElementById('playbutton').href = game.link;
+}
+
+function setAssistedMode(mode) {
+    if (!assistedUserscripts[mode]) {mode = "mobile"};
+    selectedAssistedMode = mode;
+    localStorage.setItem("assistedmode", selectedAssistedMode);
+    const assistedModeSelect = document.getElementById("assistedmodeselect");
+    if (assistedModeSelect) {assistedModeSelect.value = selectedAssistedMode};
+    const currentAssistedGame = localStorage.getItem("assisted");
+    if (launcher === "./assets/json/assisted.json" && currentAssistedGame) {
+        setPlayButtonLink(JSON.parse(currentAssistedGame), launcher);
+    };
+}
+
+function showAssistedModeSelector(show) {
+    const assistedModeWrapper = document.getElementById("assistedmodewrapper");
+    const assistedModeSelect = document.getElementById("assistedmodeselect");
+    if (!assistedModeWrapper || !assistedModeSelect) {return};
+    assistedModeWrapper.style.display = show ? "flex" : "none";
+    assistedModeSelect.value = selectedAssistedMode;
+}
+
 function generatelauncheroptions(path, game, gamepath) {
         if (localStorage.getItem("launcherpresets") === "false" && !game.custom) {localStorage.setItem(game.title, false); if (game.title === gamepath.title) {localStorage.setItem(game.title, true)}};
         if (!localStorage.getItem(game.title) && game.active === false) {localStorage.setItem(game.title, game.active); return};
@@ -115,7 +164,7 @@ function generatelauncheroptions(path, game, gamepath) {
             if (game.custom) {document.getElementById('gametitle').innerHTML = game.title.slice(4)};
             document.getElementById('gameversion').innerHTML = game.version;
             document.getElementById('gameicon').src = game.icon;
-            document.getElementById('playbutton').href = game.link;
+            setPlayButtonLink(game, path);
             if (path === "./assets/json/base.json") {selectedGame1 = JSON.stringify(game); localStorage.setItem("basegame", selectedGame1)};
             if (path === "./assets/json/modded.json") {selectedGame2 = JSON.stringify(game); localStorage.setItem("moddedgame", selectedGame2)};
             if (path === "./assets/json/assisted.json") {selectedGame3 = JSON.stringify(game); localStorage.setItem("assisted", selectedGame3)};
@@ -709,6 +758,7 @@ function eaglercontrols(){
     document.getElementById('header9').style.display = 'none';
     document.getElementById('header10').style.display = 'none';
     document.getElementById('gtabs4').classList.add('selected');
+    showAssistedModeSelector(true);
     playheader();
 }
 function creditsmenu(){
@@ -819,6 +869,7 @@ function resetTabSelected() {
         headers.style.display = "block";
     };
     document.getElementById('settings').style.display = "none";
+    showAssistedModeSelector(false);
 }
 
 function resetHeaderSelected() {

@@ -212,6 +212,13 @@
             </div>
         </div>
         <div id="gameSelection">
+            <div id="assistedmodewrapper" style="display: none; flex-direction: column; gap: 0.4vw; color: white; text-shadow: 0 0 0.5vw black;">
+                <label for="assistedmodeselect" class="bolded">Control Mode</label>
+                <select id="assistedmodeselect" onchange="setAssistedMode(this.value)" style="background: rgba(0, 0, 0, 0.65); color: white; border: 0.15vw solid rgba(255, 255, 255, 0.45); border-radius: 0.5vw; padding: 0.6vw; font: inherit;">
+                    <option value="mobile">Mobile</option>
+                    <option value="controller">Controller</option>
+                </select>
+            </div>
                 <div class="dropdownSelector" onclick="dropdowntoggle()">
                     <div style="display: flex; gap: 1vw;">
                         <div class="centeredIcon">
