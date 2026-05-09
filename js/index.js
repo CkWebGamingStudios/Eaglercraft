@@ -148,6 +148,7 @@ function showAssistedModeSelector(show) {
     const assistedModeSelect = document.getElementById("assistedmodeselect");
     if (!assistedModeWrapper || !assistedModeSelect) {return};
     assistedModeWrapper.style.display = show ? "flex" : "none";
+    document.getElementById("gameSelection").classList.toggle("assisted-mode-active", show);
     assistedModeSelect.value = selectedAssistedMode;
 }
 

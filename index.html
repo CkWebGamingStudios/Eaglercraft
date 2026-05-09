@@ -10,6 +10,60 @@
     <link rel="stylesheet" media="screen and (max-height: 550px)" href="https://irv77.github.io/AmplerLauncher/css/screensize.css">
     <link rel="shortcut icon" href="https://irv77.github.io/AmplerLauncher/assets/images/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        #assistedmodewrapper {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 1vw;
+            width: 11vw;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.2vw;
+            color: white;
+            font-size: 1.05vw;
+            line-height: 1.15vw;
+            text-shadow: 0 0 0.5vw black;
+        }
+
+        #assistedmodeselect {
+            width: 8vw;
+            min-height: 1.8vw;
+            padding: 0.15vw 0.45vw;
+            color: white;
+            background: rgba(0, 0, 0, 0.65);
+            border: 0.12vw solid rgba(255, 255, 255, 0.45);
+            border-radius: 0.35vw;
+            font: inherit;
+            line-height: 1.2vw;
+            outline: none;
+        }
+
+        #assistedmodeselect:hover,
+        #assistedmodeselect:focus {
+            border-color: var(--ui-select-secodary);
+            background: rgba(0, 0, 0, 0.85);
+        }
+
+        #gameSelection.assisted-mode-active .dropdownSelector {
+            left: 12.5vw;
+            width: 18.5vw;
+        }
+
+        #gameSelection.assisted-mode-active .dropdownMenu {
+            left: 12.5vw;
+        }
+
+        #gameSelection.assisted-mode-active .dropdownOptions {
+            width: 18.5vw;
+        }
+
+        #gameSelection.assisted-mode-active .versionText {
+            margin-right: 1.2vw;
+            font-size: 1vw;
+        }
+    </style>
     <!-- Discord-->
     <meta content="Ampler Launcher" property="og:title">
     <meta content="A minecraft themed launcher for Eaglercraft!" property="og:description">
@@ -212,9 +266,9 @@
             </div>
         </div>
         <div id="gameSelection">
-            <div id="assistedmodewrapper" style="display: none; flex-direction: column; gap: 0.4vw; color: white; text-shadow: 0 0 0.5vw black;">
+            <div id="assistedmodewrapper">
                 <label for="assistedmodeselect" class="bolded">Control Mode</label>
-                <select id="assistedmodeselect" onchange="setAssistedMode(this.value)" style="background: rgba(0, 0, 0, 0.65); color: white; border: 0.15vw solid rgba(255, 255, 255, 0.45); border-radius: 0.5vw; padding: 0.6vw; font: inherit;">
+                <select id="assistedmodeselect" onchange="setAssistedMode(this.value)">
                     <option value="mobile">Mobile</option>
                     <option value="controller">Controller</option>
                 </select>
