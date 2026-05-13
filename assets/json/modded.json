@@ -282,7 +282,7 @@
     {
         "title": "UwU v1",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/pink-wool.png",
+        "icon": "./assets/images/UwU.jfif",
         "link": "./Clients/UwU/UwU v1.html",
         "active": true
     },
