@@ -58,21 +58,21 @@
     {
         "title": "Starlike v0.4.2",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+        "icon": "./assets/images/starlike.png",
         "link": "./Clients/Starlike/Starlike v0.4.2.html",
         "active": true
     },
     {
         "title": "Tuff 1.1UT14",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "icon": "./assets/images/tuff.jfif",
         "link": "./Clients/Tuff/Tuff.1.1UT14.html",
         "active": true
     },
     {
         "title": "Wispcraft v3",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ghast-tear.png",
+        "icon": "./assets/images/Wisp.png",
         "link": "./Clients/Wispcraft/Wispcraft v3.html",
         "active": true
     },
