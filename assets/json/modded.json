@@ -191,84 +191,84 @@
     {
         "title": "Starlike v0.4.2",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+        "icon": "./assets/images/starlike.png",
         "link": "./Clients/Starlike/Starlike v0.4.2.html",
         "active": true
     },
     {
         "title": "Starlike v0.4.0",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+        "icon": "./assets/images/starlike.png",
         "link": "./Clients/Starlike/Starlike v0.4.0.html",
         "active": true
     },
     {
         "title": "Starlike v0.3.1",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+        "icon": "./assets/images/starlike.png",
         "link": "./Clients/Starlike/Starlike v0.3.1.html.html",
         "active": true
     },
     {
         "title": "Starlike v0.1.0",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/nether-star.png",
+        "icon": "./assets/images/starlike.png",
         "link": "./Clients/Starlike/Starlike v0.1.0.html",
         "active": true
     },
     {
         "title": "Tuff 1.1UT14",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "icon": "./assets/images/tuff.jfif",
         "link": "./Clients/Tuff/Tuff.1.1UT14.html",
         "active": true
     },
     {
         "title": "Tuff 1.1UT13",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "icon": "./assets/images/tuff.jfif",
         "link": "./Clients/Tuff/Tuff.1.1UT13.html",
         "active": true
     },
     {
         "title": "Tuff 1.1UT12",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "icon": "./assets/images/tuff.jfif",
         "link": "./Clients/Tuff/Tuff.1.1UT12.html",
         "active": true
     },
     {
         "title": "Tuff 1.1UT11",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "icon": "./assets/images/tuff.jfif",
         "link": "./Clients/Tuff/Tuff.1.1UT11.html",
         "active": true
     },
     {
         "title": "Tuff 1.1UT10",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "icon": "./assets/images/tuff.jfif",
         "link": "./Clients/Tuff/Tuff.1.1UT10.html",
         "active": true
     },
     {
         "title": "Tuff 1.0.0",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/stone.png",
+        "icon": "./assets/images/tuff.jfif",
         "link": "./Clients/Tuff/Tuff.1.0.0.html",
         "active": true
     },
     {
         "title": "Wispcraft v3",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ghast-tear.png",
+        "icon": "./assets/images/Wisp.png",
         "link": "./Clients/Wispcraft/Wispcraft v3.html",
         "active": true
     },
     {
         "title": "Wispcraft v2",
         "version": "1.8.8",
-        "icon": "https://irv77.github.io/AmplerLauncher/assets/images/mc-icons/ghast-tear.png",
+        "icon": "./assets/images/Wisp.png",
         "link": "./Clients/Wispcraft/Wispcraft v2.html",
         "active": true
     },
