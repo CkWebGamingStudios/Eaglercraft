@@ -1,0 +1,13 @@
+[
+  {"id":"badboyhalo","name":"BadBoyHalo","file":"badboyhalo.png","model":"steve"},
+  {"id":"cultist","name":"Cultist","file":"cultist.png","model":"steve"},
+  {"id":"dreammask","name":"Dream Mask","file":"dreamMask.png","model":"steve"},
+  {"id":"e-boy","name":"E-Boy","file":"e-boy-skin-.png","model":"steve"},
+  {"id":"enderman","name":"Enderman","file":"enderman.png","model":"steve"},
+  {"id":"glitched-steve","name":"Glitched Steve","file":"Glitched Steve.png","model":"steve"},
+  {"id":"jackhallow","name":"JackHallow","file":"JackHallow.png","model":"steve"},
+  {"id":"rainbow-cool-boy","name":"Rainbow Cool Boy","file":"rainbow-cool-boy.png","model":"steve"},
+  {"id":"tiktok-promo","name":"TikTok Promo","file":"tiktok-promo-skin.png","model":"steve"},
+  {"id":"windowsxp","name":"Windows XP","file":"windowsxp.png","model":"steve"},
+  {"id":"zombie","name":"Zombie","file":"zombie.png","model":"steve"}
+]
